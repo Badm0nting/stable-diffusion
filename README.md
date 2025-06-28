@@ -40,12 +40,6 @@ This was one of five GenAI-focused tasks assigned during my internship. The goal
    - Generate and visualize images
 3. Modify `prompt` or `batch_size` to experiment.
 
-### ✏️ Example Usage
-
-```python
-prompt = "A futuristic skyline during sunset"
-images = model.text_to_image(prompt, batch_size=2)
-
 ## 🖼 Sample Output
 The model generates realistic or artistic images based on the prompt. Results vary slightly with each run, even using the same prompt.
 
@@ -64,3 +58,9 @@ TensorFlow & Keras Teams
 
 ## 📄 License
 This project is for academic and educational purposes. All models and libraries are the property of their respective maintainers under open-source licenses.
+
+### ✏️ Example Usage
+
+```python
+prompt = "A futuristic skyline during sunset"
+images = model.text_to_image(prompt, batch_size=2)
