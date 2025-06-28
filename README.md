@@ -45,3 +45,22 @@ This was one of five GenAI-focused tasks assigned during my internship. The goal
 ```python
 prompt = "A futuristic skyline during sunset"
 images = model.text_to_image(prompt, batch_size=2)
+
+## 🖼 Sample Output
+The model generates realistic or artistic images based on the prompt. Results vary slightly with each run, even using the same prompt.
+
+## 💼 Internship Context
+Role: Intern
+Domain: Generative AI
+Project: Stable Diffusion with KerasCV
+Task: Image generation from natural language prompts using pretrained models
+
+## 🙌 Acknowledgements
+KerasCV
+
+Google Colab
+
+TensorFlow & Keras Teams
+
+## 📄 License
+This project is for academic and educational purposes. All models and libraries are the property of their respective maintainers under open-source licenses.
