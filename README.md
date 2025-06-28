@@ -49,6 +49,7 @@ images = model.text_to_image(prompt, batch_size=2)
 
 ## 📷 Output Example
 The model generates realistic or artistic images based on the prompt. Results vary slightly with each run, even using the same prompt.
+![Generated Output](output%20example/custom.png)
 
 ## 💼 Internship Context
 Role: Intern
