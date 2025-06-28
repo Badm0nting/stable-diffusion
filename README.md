@@ -44,7 +44,8 @@ This was one of five GenAI-focused tasks assigned during my internship. The goal
 
 ```python
 prompt = "A futuristic skyline during sunset"
-images = model.text_to_image(prompt, batch_size=2)```
+images = model.text_to_image(prompt, batch_size=2)
+```
 
 ## 📷 Output Example
 The model generates realistic or artistic images based on the prompt. Results vary slightly with each run, even using the same prompt.
